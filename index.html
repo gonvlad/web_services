@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PHP 1st lab Goncharov</title>
+  </head>
+  <body>
+    <?php
+      $namesList = array(‘Vladislav’, ‘Goncharov’, ‘Aleksandrovich’);
+    ?>
+    <h1>Привет! Далее выводется моё имя списком:</h1>
+      <ul>
+        <?php foreach ($namesList as $name) { ?>
+        <li><?php echo $name ?></li>
+        <?php }  ?>
+      </ul>
+  </body>
+</html>
